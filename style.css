@@ -1,3 +1,9 @@
+.logo {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .titulo-principal {
     text-align: center;
     color: blueviolet;
