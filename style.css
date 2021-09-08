@@ -4,45 +4,32 @@
     margin: 0 auto;
 }
 
-.titulo-principal {
-    text-align: center;
-    color: blueviolet;
-    font-size: 50px;
-}
 
 .principal {
+    display: flex;
+    flex: 1;
     color: black;
     font-size: 20px;
     border-style: hidden;
-    display: inline-block;
-    position: absolute;
 }
 
-.escritores {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    margin-bottom: 30px;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid #000000; 
-    border-radius: 10px;
-}
-
-.descricao-livros {
-    width: 30%;
-    height: 30%;
+.titulo-centralizado {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 0 0 1em;
+    padding: 3em 0;
 }
 
 .mapa {
 	padding: 3em 0;
-	background:#6CA6CD;
+    background-color: aquamarine;
 }
 
 .titulo-mapa{
-    text-align: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
     font-size: 30px;
     margin: 0 0 1em;
 }
