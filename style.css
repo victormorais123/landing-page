@@ -4,22 +4,75 @@
     margin: 0 auto;
 }
 
-
-.principal {
-    display: flex;
-    flex: 1;
-    color: black;
-    font-size: 20px;
-    border-style: hidden;
+.sobre {
+    background-color: darkorange;
+    
 }
 
-.titulo-centralizado {
+.titulo-sobre {
+    display: flex;
+    flex: 1;
+    font-size: 30px;
+    justify-content: center;
+    
+}
+
+.texto-sobre {
+    margin: 20px;
     display: flex;
     flex: 1;
     justify-content: center;
-    margin: 0 0 1em;
-    padding: 3em 0;
+    font-size: 19px;
+    margin: 15px;
 }
+
+.cards {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 8px;
+    border-radius: 4px;
+  }
+  
+  .image {
+    width: 150px;
+    height: 100px;
+    padding: 16px;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  .text-card {
+    padding: 8px;
+  }
+  
+  .text {
+    display: flex;
+    flex: 1;
+    margin-top: 16px;
+  }
+  
+  .item-text-empty {
+    flex: 1;
+  }
+  
+  .text-item {
+    flex: 3;
+    padding: 4px;
+    border: 1px solid lightgrey;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: justify;
+    font-size: 18px;
+  }
 
 .mapa {
 	padding: 3em 0;
