@@ -1,29 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
     <head>
         <meta charset="UTF-8">
         <title>Feira do Livro</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
     </head>
 
     <body>
         <header>
-            <div class="logo">
-                <h1><img src="índice.jpg"></h1>
+          <div>
+            <h1><a href="index.html"><img src="logo.png" height="200px" width="325px" alt="logo Feira do livro"></a></h1>
 
-                <!-- <nav>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                    </ul>
-                </nav>
-            </div> -->
+            <nav>
+              <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#local">Localização</a></li>
+                <li><a href="#reportagem">Reportagem</a></li>
+                <li><a href="#lista" class="inscreva">INSCREVA-SE</a></li>
+              </ul>
+            </nav>
+          </div>
 		    </header>
             
         <main>
           <div class="sobre">
-            <div class="titulo-sobre">Sobre a Feira do Livro</div>  
+            <div class="titulo-sobre"><a name="sobre">Sobre a Feira do Livro</a></div>  
               <div class="texto-sobre">
                     <p>O evento <strong>Feira do Livro</strong> que ocorre na cidade de <strong>Passo Fundo</strong>, no norte do estado do Rio Grande do Sul, tem como objetivo popularizar o livro e democratizar o acesso à leitura, oferecendo à comunidade o acesso gratuito a diversas atividades culturais em diálogo com o livro e a literatura.</p>
                 </div>
@@ -55,7 +62,9 @@
 
         </main>
 
+      <a name="local">
         <section class="mapa">
+      </a>
             <h1 class="titulo-mapa">Localização do Evento</h1>
             <p class="texto"> Veja no mapa aonde o evento será localizado, diferente da anterior, nesta edição a Feira do Livro  voltara a ser realizada no Bourboun Shopping.</p>
             <div class="conteudo-mapa">
@@ -63,7 +72,9 @@
             </div>
         </section>
 
+      <a name="reportagem">
         <section class="video">
+      </a>
             <h1 class="titulo-video"> Conheça um pouco sobre a edição anterior</h1>
             <p class="texto"> Veja a reportagem realizada pela UPF TV sobre a edição X da Feira do Livro e saiba o que esperar da atual.</p>
             <div class="conteudo-video">
@@ -73,6 +84,7 @@
 
         <section>
             <div class="container">
+              <a name="lista"></a>
                 <form>
                   <ul class="lista">
                     <li>
@@ -102,8 +114,9 @@
                 </form>
               </div>
         </section>
-           
-
-
+       <footer>
+          <img src="logobranca.png" height="150px" width="275px" alt="logo branca da Feira do livro">
+          <p class="copyright">&copy; Copyright Feira do Livro - 2021</p>
+       </footer>
     </body>
 </html>
