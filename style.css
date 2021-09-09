@@ -168,6 +168,11 @@ footer {
     background-color: red;
 }
 
+.titulo-form{
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 1em;
+}
 
 form{
     margin: 40px 0;
