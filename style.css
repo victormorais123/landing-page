@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 header { 
@@ -7,7 +7,7 @@ header {
 }
 
 .tabela-cabecalho{
-    padding-right: 30px;
+    padding-right: 20px;
 }
 
 nav {
