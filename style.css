@@ -6,6 +6,10 @@ header {
     background: lightgreen;
 }
 
+.tabela-cabecalho{
+    padding-right: 30px;
+}
+
 nav {
     position: absolute;
     top: 90px;
