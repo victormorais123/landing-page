@@ -6,6 +6,10 @@ header {
     background: lightgreen;
 }
 
+.tabela-cabecalho{
+    padding-right: 30px;
+}
+
 nav {
     position: absolute;
     top: 90px;
@@ -224,6 +228,13 @@ footer {
     background-color: red;
 }
 
+.titulo-form{
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 1em;
+    padding-bottom: inherit;
+    padding-right: 100px;
+}
 
 form{
     margin: 40px 0;
