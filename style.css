@@ -6,6 +6,10 @@ header {
   background: MediumAquamarine;
 }
 
+main {
+  background-color: rgb(240, 240, 240);
+}
+
 .tabela-cabecalho{
     padding-right: 20px;
 }
@@ -37,7 +41,7 @@ nav a:hover {
 
 /*#region SOBRE */
 .sobre {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -236,14 +240,14 @@ button {
   flex: 1;
   font-size: 25px;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 10px;
 }
 .cards-criadores {
   display: flex;
   flex: 1;
   padding-bottom: 15px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -261,9 +265,17 @@ button {
   justify-content: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
+
+
+footer {
+  background-color: rgb(0, 137, 139);
+  text-align: center;
+}
+
+.copyright {
+  padding: 10px 0 10px 0;
+  background-color: rgb(17, 112, 112);
+
 }
 
 button:hover,
