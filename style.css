@@ -6,6 +6,10 @@ header {
   background: lightgreen;
 }
 
+main{
+    background-color: #21B6A8;
+}
+
 .tabela-cabecalho {
   padding-right: 30px;
 }
@@ -57,7 +61,6 @@ footer {
 }
 
 .sobre {
-  background-color: darkorange;
   margin-bottom: 10px;
   display: flex;
   flex: 1;
@@ -82,7 +85,7 @@ footer {
 }
 
 .cards-todos {
-  margin: 10px 0 10px 0;
+  margin: 10px 0 0 0;
   display: flex;
   flex: 1;
   justify-content: center;
