@@ -67,6 +67,23 @@ footer {
   flex-direction: column;
 }
 
+.trapezio-sobre{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 70%;
+  padding-bottom: 10px;
+  background: #2F4F4F;
+  margin-bottom: 20px;
+  transform: skew(-20deg);
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+
 .titulo-sobre {
     padding-top: 20px;
     display: flex;
@@ -242,8 +259,8 @@ footer {
   background-color: rgb(3, 182, 185);
 }
 
-.retangulo{
-  display: block;
+.trapezio{
+    display: block;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -258,16 +275,10 @@ footer {
     margin-bottom: 70px;
 }
 
-/*
-.titulo-form {
+.titulo-trapezio {
   color: white;
-  text-align: center;
-  font-size: 30px;
-  margin: 0 0 1em;
-  padding-bottom: inherit;
-  padding-right: 100px;
 }
-*/
+
 
 form {
   margin: 40px 0;
