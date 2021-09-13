@@ -84,6 +84,14 @@ footer {
   margin: 15px;
 }
 
+.texto-evento{
+  font-size: 19px;
+  margin: 0 0 1em;
+  text-align: justify;
+  padding-right: 200px;
+  padding-left: 200px;}
+  
+
 .cards-todos {
   margin: 10px 0 0 0;
   display: flex;
@@ -200,9 +208,11 @@ footer {
 }
 
 .texto {
-  text-align: center;
   font-size: 19px;
   margin: 0 0 1em;
+  text-align: justify;
+  padding-right: 200px;
+  padding-left: 200px;
 }
 
 .conteudo-mapa {
@@ -232,13 +242,32 @@ footer {
   background-color: rgb(3, 182, 185);
 }
 
+.retangulo{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 70%;
+    padding-bottom: 10px;
+    background: #2F4F4F;
+    margin-bottom: 20px;
+    transform: skew(-20deg);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 70px;
+}
+
+/*
 .titulo-form {
+  color: white;
   text-align: center;
   font-size: 30px;
   margin: 0 0 1em;
   padding-bottom: inherit;
   padding-right: 100px;
 }
+*/
 
 form {
   margin: 40px 0;
