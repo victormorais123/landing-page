@@ -260,6 +260,14 @@ form label {
   margin: 0 0 20px;
   padding: 10px 25px;
   width: 50%;
+  border-radius: 10px;
+  border-color: black;
+}
+
+button{
+    border-radius: 5px;
+    width: 100px;
+    border-color: black;
 }
 
 .criadores{
