@@ -27,65 +27,97 @@
             </nav>
           </div>
 		    </header>
-            
+
         <main>
           <div class="sobre">
-            <div class="titulo-sobre"><a name="sobre">Sobre a Feira do Livro</a></div>  
-              <div class="texto-sobre">
-                    <p>O evento <strong>Feira do Livro</strong> que ocorre na cidade de <strong>Passo Fundo</strong>, no norte do estado do Rio Grande do Sul, tem como objetivo popularizar o livro e democratizar o acesso à leitura, oferecendo à comunidade o acesso gratuito a diversas atividades culturais em diálogo com o livro e a literatura.</p>
-                </div>
+            <div class="trapezio-sobre"> 
+              <h1 class="titulo-trapezio" name="sobre">SOBRE</h1>
+            </div>  
+              <div>
+                    <p class="texto">O evento Feira do Livro que ocorre na cidade de Passo Fundo, no norte do estado do Rio Grande do Sul, tem como objetivo popularizar o livro e democratizar o acesso à leitura, oferecendo à comunidade o acesso gratuito a diversas atividades culturais em diálogo com o livro e a literatura.</p>
+                    <p class="texto">Neste ano ao contrário da edição anterior a 35° Feira do Livro voltará a ocorrer em sua forma tradicional com palestras, apresentações músicais e teatrais explorando o melhor da literatura e da cultura.</p>
+              </div>
           </div>
 
-          <div class="cards">
-            <div class="card">
-              <div class="image">
-                <img src="raphael_MOntes.jpg" height="200px" width="150px" />
+          <!-- PARTE DOS CARDS (SEM FLEXBOX) -->
+    <div class="texto-escritores">
+      <p>CONHEÇA ALGUNS DOS AUTORES PRESENTES</p>
+    </div>
+    <div class="instruçoes-cards">
+      <p>Deslize o mouse suavemente em cada imagem.</p>
+    </div>  
+      <section class="cards-todos">
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="raphael_MOntes.jpg" alt="imagem do escritor Raphael Montes" style="width:300px;height:200px">
               </div>
-              <div class="text-card">Raphael Montes</div>
-            </div>
-            <div class="card">
-              <div class="image">
-                <img src="pablo-moreno.jpg" height="200px" width="150px" />
+              <div class="flip-box-back">
+                <h2 class="titulo-card-back">Raphael Montes</h2>
+                <p class="texto-card-back">É um escritor brasileiro de literatura policial e suspense. Autor de Dias Perfeitos, Jantar Secreto, O Vilarejo e Suicidas.</p>
               </div>
-              <div class="text-card">Pablo Morenno</div>
-            </div>
-            <div class="card">
-              <div class="image">
-                <img src="carpinejar.jpg" height="200px" width="150px" />
-              </div>
-              <div class="text-card">Fabricio Carpinejar</div>
             </div>
           </div>
-          <div class="text"></div>
-            <div class="item-text-empty"></div>
-            <div class="text-item"></div>
-
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="pablo-moreno.jpg" alt="imagem do escritor Pablo Morenno" style="width:300px;height:200px">
+              </div>
+              <div class="flip-box-back">
+                <h2 class="titulo-card-back">Pablo Morenno</h2>
+                <p class="texto-card-back">É escritor de literatura infantil, infanto-juvenil e adulta, com 9 livros publicados, e palestrante na área aeducacional.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="carpinejar.jpg" alt="imagem do escritor Fabricio Carpinejar" style="width:300px;height:200px">
+              </div>
+              <div class="flip-box-back">
+                <h2 class="titulo-card-back">Fabricio Carpinejar</h2>
+                <p class="texto-card-back">Escritor, jornalista, professor universitário, poeta e cronista gaúcho.</p>
+              </div>
+            </div>
+          </div>
+        </section>   
         </main>
 
+
+        <!-- MAPA DO EVENTO -->
       <a name="local">
         <section class="mapa">
       </a>
-            <h1 class="titulo-mapa">Localização do Evento</h1>
-            <p class="texto"> Veja no mapa aonde o evento será localizado, diferente da anterior, nesta edição a Feira do Livro  voltara a ser realizada no Bourboun Shopping.</p>
+            <div class="trapezio"> 
+              <h1 class="titulo-trapezio">LOCALIZAÇÃO</h1>
+            </div>
+            <p class="texto"> Veja no mapa onde o evento será localizado, diferente da anterior, nesta edição a Feira do Livro voltará a ser realizada no Bourbon Shopping.</p>
             <div class="conteudo-mapa">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.470290394818!2d-52.3957468849259!3d-28.25375328256874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1d3b037fc8edaa67!2sBourbon%20Shopping%20Passo%20Fundo!5e0!3m2!1spt-BR!2sbr!4v1630606985214!5m2!1spt-BR!2sbr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </section>
 
+        <!-- VIDEO COM SECTION ÚNICA -->
       <a name="reportagem">
         <section class="video">
       </a>
-            <h1 class="titulo-video"> Conheça um pouco sobre a edição anterior</h1>
-            <p class="texto"> Veja a reportagem realizada pela UPF TV sobre a edição X da Feira do Livro e saiba o que esperar da atual.</p>
+            <div class="trapezio"> 
+              <h1 class="titulo-trapezio">UM POUCO SOBRE A EDIÇÃO ANTERIOR</h1>
+            </div>
+            <p class="texto"> Por conta da pandemia de COVID-19 a 34° Feira do Livro foi localizada na Praça Marechal Floriano e ocorreu em formato hibrido com palestras e conferências online. Confira a reportagem da UPF TV sobre a edição anterior.</p>
             <div class="conteudo-video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZisGzDMqxBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
 
+
+        <!-- FORMULÁRIO -->
         <section>
             <div class="container">
               <a name="lista"></a>
-                <h1 class="titulo-form">INSCREVA-SE</h1>
+              <div class="trapezio">
+                <h1 class="titulo-trapezio">INSCREVA-SE</h1>
+              </div>
                 <form>
                   <ul class="lista">
                     <li>
@@ -114,9 +146,49 @@
                   </ul>
                 </form>
               </div>
-        </section>
+
+
+      <!-- CARDS DOS DEVS (SUJEITO A MUDANÇAS) -->
+    <section class="criadores">
+     <div class="texto-criadores">
+      <div class="trapezio">
+        <h1 class="titulo-trapezio">CONHEÇA OS CRIADORES DA LANDING PAGE</h1>
+      </div>
+    </div>
+      <div class="cards-criadores">
+        <div class="card">
+          <img src="victor_foto.jpg" alt="imagem do estudante Victor André Gopinger de Morais" style="width: 100%">
+          <h1>Victor André Gopinger de Morais</h1>
+          <p class="title">Estudante do projeto #TeuFuturo</p>
+          <p>IMED - Faculdade Meridional</p>
+          <a href="https://www.linkedin.com/in/victor-andre-gopinger-de-morais/"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+        <div class="card">
+          <img src="victor_foto.jpg" alt="imagem do estudante Victor André Gopinger de Morais" style="width: 100%">
+          <h1>Emanuel Mello de Oliveira</h1>
+          <p class="title">Estudante do projeto #TeuFuturo</p>
+          <p>IMED - Faculdade Meridional</p>
+          <a href="https://www.linkedin.com/in/emanuel-mello-de-oliveira-a88644210/"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+          <div class="card">
+          <img src="victor_foto.jpg" alt="imagem do estudante Victor André Gopinger de Morais" style="width: 100%">
+          <h1>Pedro Henrique do Amarante</h1>
+          <p class="title">Estudante do projeto #TeuFuturo</p>
+          <p>IMED - Faculdade Meridional</p>
+          <a href="https://www.linkedin.com/in/pedro-henrique-do-amarante/"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+      </div>
+      </section>
+
+
+
+        <!-- RODAPÉ (FALTANDO INFOS DE CONTATO) -->
        <footer>
-          <img src="logobranca.png" height="150px" width="275px" alt="logo branca da Feira do livro">
+         <div class="img-footer">
+          <img src="logobranca.png" height="150px" width="275px" alt="logo branca da Feira do livro"> </div>
           <p class="copyright">&copy; Copyright Feira do Livro - 2021</p>
        </footer>
     </body>
