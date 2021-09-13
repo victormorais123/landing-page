@@ -6,9 +6,16 @@ header {
   background: MediumAquamarine;
 }
 
-main{
-    background-color: Aquamarine;
+.title {
+  color: grey;
+  font-size: 18px;
 }
+
+main {
+  background-color: Aquamarine;
+}
+
+/*#region CABEÇALHO*/
 
 .tabela-cabecalho {
   padding-right: 30px;
@@ -37,29 +44,9 @@ nav a:hover {
   color: white;
   text-decoration: underline;
 }
+/*#endregion*/
 
-footer {
-  text-align: center;
-  background: #2F4F4F;
-  padding: 40px 0;
-}
-
-.inscreva {
-  color: rgb(255, 255, 255);
-}
-
-.inscreva:hover {
-  color: darkblue;
-  text-decoration: underline;
-}
-
-.copyright {
-  color: #ffffff;
-  font-size: 13px;
-  margin: 20px 0 0;
-  padding-bottom: 25px;
-}
-
+/*#region SOBRE */
 .sobre {
   margin-bottom: 10px;
   display: flex;
@@ -67,14 +54,22 @@ footer {
   flex-direction: column;
 }
 
-.trapezio-sobre{
+.texto-escritores {
+  display: flex;
+  flex: 1;
+  font-size: 25px;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.trapezio-sobre {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: auto;
   width: 70%;
   padding-bottom: 10px;
-  background: #2F4F4F;
+  background: #2f4f4f;
   margin-bottom: 20px;
   transform: skew(-20deg);
   text-align: center;
@@ -84,48 +79,35 @@ footer {
   margin-top: 30px;
 }
 
-.titulo-sobre {
-    padding-top: 20px;
-    display: flex;
-    font-size: 30px;
-    margin: 0 0 1em;
-    justify-content: center;
+.titulo-trapezio {
+  color: white;
 }
+/*#endregion */
 
-.texto-sobre {
-  margin: 20px;
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  font-size: 19px;
-  margin: 15px;
-}
-
-.texto-evento{
+.texto {
   font-size: 19px;
   margin: 0 0 1em;
   text-align: justify;
   padding-right: 200px;
-  padding-left: 200px;}
-  
-
-.cards-todos {
-  margin: 10px 0 0 0;
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  padding-bottom: 40px;
+  padding-left: 200px;
 }
-
-.texto-escritores {
-  display: flex;
-  flex: 1;
-  font-size: 25px;
-  justify-content: center;
-  padding-top: 30px;
+.trapezio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 70%;
   padding-bottom: 10px;
+  background: #2f4f4f;
+  margin-bottom: 20px;
+  transform: skew(-20deg);
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  margin-bottom: 70px;
 }
 
+/*#region CARDS */
 .instruçoes-cards {
   display: flex;
   flex: 1;
@@ -136,6 +118,13 @@ footer {
   padding-top: 10px;
 }
 
+.cards-todos {
+  margin: 10px 0 0 0;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding-bottom: 40px;
+}
 .flip-box {
   margin: 15px;
   float: left;
@@ -155,6 +144,25 @@ footer {
   transform-style: preserve-3d;
 }
 
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-box-back {
+  background-color: lightgreen;
+  color: white;
+  transform: rotateY(180deg);
+}
+.titulo-card-back {
+  padding: 5px;
+  font-size: 20px;
+}
+.texto-card-back {
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
 .flip-box:hover .flip-box-inner {
   transform: rotateY(180deg);
 }
@@ -168,118 +176,36 @@ footer {
   backface-visibility: hidden;
   border-radius: 8px;
 }
+/*#endregion*/
 
-.flip-box-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-box-back {
-  background-color: lightgreen;
-  color: white;
-  transform: rotateY(180deg);
-}
-
-.titulo-card-back {
-  padding: 5px;
-  font-size: 20px;
-}
-
-.texto-card-back {
-  padding: 5px;
-  font-size: 20px;
-  text-align: center;
-}
-
-.text {
-  display: flex;
-  flex: 1;
-  margin-top: 16px;
-}
-
-.item-text-empty {
-  flex: 1;
-}
-
-.text-item {
-  flex: 3;
-  padding: 4px;
-  border: 1px solid lightgrey;
-  background-color: #fff;
-  border-radius: 4px;
-  text-align: justify;
-  font-size: 18px;
-}
-
+/*#region MAPA */
 .mapa {
   padding: 3em 0;
   background-color: Turquoise;
 }
-
-.titulo-mapa {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  font-size: 30px;
-  margin: 0 0 1em;
-}
-
-.texto {
-  font-size: 19px;
-  margin: 0 0 1em;
-  text-align: justify;
-  padding-right: 200px;
-  padding-left: 200px;
-}
-
 .conteudo-mapa {
   width: 940px;
   margin: 0 auto;
 }
+/*#endregion */
 
+/*#region VIDEO */
 .video {
   padding: 3em 0;
   background: MediumTurquoise;
 }
-
-.titulo-video {
-  text-align: center;
-  font-size: 30px;
-  margin: 0 0 1em;
-}
-
 .conteudo-video {
   width: 560px;
   margin: 2em auto;
 }
+/*#endregion */
 
+/*#region FORMULÁRIO */
 .container {
   padding: 3em 0;
   padding-left: 10em;
   background-color: rgb(3, 182, 185);
 }
-
-.trapezio{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 70%;
-    padding-bottom: 10px;
-    background: #2F4F4F;
-    margin-bottom: 20px;
-    transform: skew(-20deg);
-    text-align: center;
-    font-size: 30px;
-    padding-top: 10px;
-    margin-bottom: 70px;
-}
-
-.titulo-trapezio {
-  color: white;
-}
-
-
 form {
   margin: 40px 0;
   display: flex;
@@ -288,16 +214,15 @@ form {
   justify-content: flex-start;
 }
 
-.lista {
-  width: 50%;
-}
-
 form label {
   display: block;
   font-size: 20px;
   margin: 0 0 10px;
 }
 
+.lista {
+  width: 50%;
+}
 .input-padrao {
   display: block;
   margin: 0 0 20px;
@@ -306,29 +231,31 @@ form label {
   border-radius: 10px;
   border-color: black;
 }
-
-button{
-    border-radius: 5px;
-    width: 100px;
-    border-color: black;
+button {
+  border-radius: 5px;
+  width: 100px;
+  border-color: black;
 }
+/*#endregion */
 
-.criadores{
-    background-color: LightSeaGreen;
+/*#region CARDS DOS CRIADORES */
+.criadores {
+  background-color: LightSeaGreen;
 }
-
-.titulo-criadores{
-    padding-top: 30px;
-    padding-bottom: 10px;
+.texto-criadores {
+  display: flex;
+  flex: 1;
+  font-size: 25px;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
-
 .cards-criadores {
   display: flex;
   flex: 1;
   padding-bottom: 15px;
   padding-top: 20px;
 }
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -336,10 +263,23 @@ button{
   text-align: center;
   background-color: white;
 }
+/*#endregion */
 
-.title {
-  color: grey;
-  font-size: 18px;
+/*#region FOOTER */
+.img-footer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
 }
 
 a {
@@ -348,18 +288,4 @@ a {
   color: black;
 }
 
-button:hover,
-a:hover {
-  opacity: 0.7;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-}
-
-.img-footer {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-}
+/*#endregion */
