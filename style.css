@@ -3,11 +3,11 @@ body {
 }
 
 header {
-  background: lightgreen;
+  background: MediumAquamarine;
 }
 
 main{
-    background-color: #21B6A8;
+    background-color: Aquamarine;
 }
 
 .tabela-cabecalho {
@@ -40,7 +40,7 @@ nav a:hover {
 
 footer {
   text-align: center;
-  background: rgb(96, 158, 96);
+  background: #2F4F4F;
   padding: 40px 0;
 }
 
@@ -185,7 +185,7 @@ footer {
 
 .mapa {
   padding: 3em 0;
-  background-color: aquamarine;
+  background-color: Turquoise;
 }
 
 .titulo-mapa {
@@ -209,7 +209,7 @@ footer {
 
 .video {
   padding: 3em 0;
-  background: #6ca6cd;
+  background: MediumTurquoise;
 }
 
 .titulo-video {
@@ -226,7 +226,7 @@ footer {
 .container {
   padding: 3em 0;
   padding-left: 10em;
-  background-color: red;
+  background-color: DarkTurquoise;
 }
 
 .titulo-form {
@@ -262,10 +262,14 @@ form label {
   width: 50%;
 }
 
+.criadores{
+    background-color: LightSeaGreen;
+}
+
 .cards-criadores {
   display: flex;
   flex: 1;
-  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .card {
