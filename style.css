@@ -34,7 +34,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #3867af;
+  color: white;
   text-decoration: underline;
 }
 
@@ -49,7 +49,7 @@ footer {
 }
 
 .inscreva:hover {
-  color: red;
+  color: darkblue;
   text-decoration: underline;
 }
 
@@ -68,11 +68,11 @@ footer {
 }
 
 .titulo-sobre {
-  display: flex;
-  flex: 1;
-  font-size: 30px;
-  justify-content: center;
-  padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    font-size: 30px;
+    margin: 0 0 1em;
+    justify-content: center;
 }
 
 .texto-sobre {
@@ -89,14 +89,16 @@ footer {
   display: flex;
   flex: 1;
   justify-content: center;
+  padding-bottom: 40px;
 }
 
 .texto-escritores {
   display: flex;
   flex: 1;
-  font-size: 30px;
+  font-size: 25px;
   justify-content: center;
-  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .instruçoes-cards {
@@ -106,6 +108,7 @@ footer {
   font-size: 18px;
   justify-content: center;
   text-align: center;
+  padding-top: 10px;
 }
 
 .flip-box {
@@ -226,7 +229,7 @@ footer {
 .container {
   padding: 3em 0;
   padding-left: 10em;
-  background-color: DarkTurquoise;
+  background-color: rgb(3, 182, 185);
 }
 
 .titulo-form {
@@ -274,10 +277,16 @@ button{
     background-color: LightSeaGreen;
 }
 
+.titulo-criadores{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
 .cards-criadores {
   display: flex;
   flex: 1;
   padding-bottom: 15px;
+  padding-top: 20px;
 }
 
 .card {
@@ -285,6 +294,7 @@ button{
   max-width: 300px;
   margin: auto;
   text-align: center;
+  background-color: white;
 }
 
 .title {
