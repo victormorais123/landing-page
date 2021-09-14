@@ -69,7 +69,7 @@ nav a:hover {
   font-size: 30px;
   padding-top: 10px;
   margin-bottom: 70px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .titulo-trapezio {
@@ -92,7 +92,6 @@ nav a:hover {
   width: 70%;
   padding-bottom: 10px;
   background: #2f4f4f;
-  margin-bottom: 20px;
   transform: skew(-20deg);
   text-align: center;
   font-size: 30px;
@@ -199,6 +198,24 @@ nav a:hover {
   padding-left: 10em;
   background-color: rgb(3, 182, 185);
 }
+
+.trapezio-form{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 80%;
+  padding-bottom: 10px;
+  background: #2f4f4f;
+  transform: skew(-20deg);
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  margin-bottom: 70px;
+  margin-right: 250px;
+  margin-left: 40px;
+}
+
 form {
   margin: 40px 0;
   display: flex;
@@ -263,6 +280,7 @@ button {
   display: flex;
   flex: 1;
   justify-content: center;
+  background: rgb(17, 112, 112);
 }
 
 
