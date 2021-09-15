@@ -1,5 +1,5 @@
 body {
-    font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 header {
@@ -10,8 +10,8 @@ main {
   background-color: Aquamarine;
 }
 
-.tabela-cabecalho{
-    padding-right: 20px;
+.tabela-cabecalho {
+  padding-right: 20px;
 }
 
 nav {
@@ -132,7 +132,7 @@ nav a:hover {
   margin: 15px;
   float: left;
   background-color: transparent;
-  width: 400PX;
+  width: 400px;
   height: 500px;
   border-radius: 20px;
   perspective: 1000px;
@@ -143,7 +143,7 @@ nav a:hover {
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 1.2s;
   transform-style: preserve-3d;
 }
 
@@ -165,7 +165,7 @@ nav a:hover {
   padding-top: 60px;
   padding: 10px;
   font-size: 25px;
-  text-align: center;
+  text-align: justify;
 }
 
 .flip-box:hover .flip-box-inner {
@@ -212,7 +212,7 @@ nav a:hover {
   background-color: rgb(3, 182, 185);
 }
 
-.trapezio-form{
+.trapezio-form {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -296,8 +296,6 @@ button {
   background: rgb(17, 112, 112);
 }
 
-
-
 footer {
   background-color: rgb(0, 137, 139);
   text-align: center;
@@ -306,7 +304,6 @@ footer {
 .copyright {
   padding: 10px 0 10px 0;
   background-color: rgb(17, 112, 112);
-
 }
 
 button:hover,
