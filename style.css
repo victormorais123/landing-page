@@ -7,7 +7,7 @@ header {
 }
 
 main {
-  background-color: Aquamarine;
+  background: Aquamarine;
 }
 
 .tabela-cabecalho {
@@ -315,6 +315,10 @@ a {
   text-decoration: none;
   font-size: 22px;
   color: black;
+}
+
+.voltar:before {
+  content: "🢁";
 }
 
 /*#endregion */
